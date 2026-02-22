@@ -39,7 +39,6 @@ has_cr_card=st.selectbox('Has Credit Card', ['No', 'Yes'])
 has_cr_card = 1 if has_cr_card== 'Yes' else 0
 is_active_member=st.selectbox('Is Active Member', ['No', 'Yes'])
 is_active_member = 1 if is_active_member== 'Yes' else 0
-estimated_salary=st.number_input('Estimated Salary')
 
 input_data=pd.DataFrame({
     'CreditScore':[credit_score],
